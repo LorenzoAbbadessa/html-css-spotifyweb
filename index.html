@@ -12,44 +12,136 @@
             <button>EFFETUA L'UPGRADE</button>
         </header>
         <nav>
-            <img id="logo" src="img/logo.svg" alt="LOGO">
-            <ul class="lista_nav1">
-                <li class="item_nav">
-                    <i class="fa-solid fa-house"></i>
-                    <span class="testo_nav">Home</span>
-                </li>
-                <li class="item_nav">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <span class="testo_nav">Cerca</span>
-                </li>
-                <li class="item_nav">
-                    <i class="fa-solid fa-book"></i>
-                    <span class="testo_nav">La tua libreria<span>
-                </li>
-            </ul>
-            <ul class="lista_nav2">
-                <li><p>PLAYLIST</p></li>
-                <li>
-                    <i id="plus" class="fa-solid fa-plus"></i>
-                    <span>Crea Playlist</span>
-                </li>
-                <li>Nuova Playlist</li>
-                <li>Nuova Playlist</li>
-                <li>Nuova Playlist</li>
-                <li>Nuova Playlist</li>
-                <li>Nuova Playlist</li>
-                <li>Nuova Playlist</li>
-                <li>Nuova Playlist</li>
-            </ul>
+            <div class="container_nav">
+                <img id="logo" src="img/logo.svg" alt="LOGO">
+                <ul class="lista_nav1">
+                    <li class="item_nav">
+                        <i class="fa-solid fa-house"></i>
+                        <span class="testo_nav">Home</span>
+                    </li>
+                    <li class="item_nav">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <span class="testo_nav">Cerca</span>
+                    </li>
+                    <li class="item_nav">
+                        <i class="fa-solid fa-book"></i>
+                        <span class="testo_nav">La tua libreria<span>
+                    </li>
+                </ul>
+                <ul class="lista_nav2">
+                    <li><p>PLAYLIST</p></li>
+                    <li>
+                        <i id="plus" class="fa-solid fa-plus"></i>
+                        <span>Crea Playlist</span>
+                    </li>
+                    <li>Nuova Playlist</li>
+                    <li>Nuova Playlist</li>
+                    <li>Nuova Playlist</li>
+                    <li>Nuova Playlist</li>
+                    <li>Nuova Playlist</li>
+                    <li>Nuova Playlist</li>
+                    <li>Nuova Playlist</li>
+                </ul>">
+                <div class="bassa_nav">
+                    <div>
+                        <i class="fa-regular fa-circle-down"></i>
+                        <span>Installa App</span>
+                    </div>
+                    <hr>
+                     <div>
+                        <i id="user_icon" class="fa-regular fa-user"></i>
+                        <span id="user">John Doe</span>
+                    </div>
+
+                </div>
+                
+            </div>
            
         </nav>
         <main>
+            <div class="main_menu">
+                
+                <h4>CLASSIFICHE</h4>
+                <h4>IN EVIDENZA</h4>
+                <h4>NUOVE USCITE</h4>
+                <h4>PODCAST</h4>
+                <h4>GENERI E MOOD</h4>
+                <h4>SCOPRI</h4>
+            </div>
+            <h1 class="titolo_colonna">Recently played</h1>
+            <div class="righe">
+                <div class="card">
+                    <img src="img\metal_lifting.jpg">
+                    <h3 class="nome">Heavy Metal</h3>
+                    <h4 class="artista">Subtitle</h4>
+                </div>
+                <div class="card">
+                    <img src="img/stranger.jpeg">
+                    <h3 class="nome">Stranger things, Vol. 1 (a Netflix Original Series Soundtrack)</h3>
+                    <h4 class="artista">Kyle Dixon & Micheal Stein</h4>
+                </div>
+                <div class="card">
+                    <img src="img/aquietplace.jpeg">
+                    <h3 class="nome">A quiet place</h3>
+                    <h4 class="artista">Subtitle</h4>
+                </div>
+                <div class="card">
+                    <img src="img/split.jpeg">
+                    <h3 class="nome">Split</h3>
+                    <h4 class="artista">Subtitle</h4>
+                </div>
+                <div class="card">
+                    <img src="img/cure.jpeg">
+                    <h3 class="nome">A cure for wellness</h3>
+                    <h4 class="artista">Subtitle</h4>
+                </div>
+                <div class="card">
+                    <img src="img/sinister.jpeg">
+                    <h3 class="nome">Sinister</h3>
+                    <h4 class="artista">Subtitle</h4>
+                </div>
+                
+                
 
+            </div>
         </main>
         <footer>
-            <div>
-                <h1>ciao</h1>
+           <div class="footer_sx">
+                <img src="img\sinister.jpeg">
+                <div id="brano_riprodotto">
+                    <h3>Sinister</h3>
+                    <h4>Brano nome</h4>
+                </div>
+                <div class="footer_sx_icon">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-folder"></i>
+                </div>
+
             </div>
+           <div class="footer_cntrl">
+                <div class="cntrl_uno">
+                    <i class="fa-solid fa-share"></i>
+                    <i class="fa-solid fa-backward-step"></i>
+                    <i id="play" class="fa-solid fa-play"></i>
+                    <i class="fa-solid fa-forward-step"></i>
+                    <i class="fa-solid fa-rotate-right"></i>
+                </div>
+                <div class="cntrl_due">
+                    <h4>0.25</h4>
+                    <div id="cntrl_due_bar">
+                        <div id="cntrl_due_bar2"></div>
+                    </div>
+                    <h4>4.35</h4>
+                </div>
+           </div>
+           <div class="footer_dx">
+            <i class="fa-solid fa-bars-staggered"></i>
+            <i class="fa-solid fa-display"></i>
+            <i class="fa-solid fa-volume-high"></i>
+            <div id="footer_dx_bar">
+                <div id="footer_dx_bar2"></div>
+            </div>
+           </div>
         </footer>
     </body>
 </html>
